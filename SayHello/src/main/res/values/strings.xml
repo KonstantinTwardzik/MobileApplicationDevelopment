@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EMA</string>
+    <string name="hello">Hello World!</string>
+    <string name="placeholder">Please enter a text.</string>
+    <string name="read">READ</string>
+    <string name="german">Deutsch</string>
+    <string name="english">English</string>
+</resources>

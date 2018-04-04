@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Silencer</string>
+    <string name="app_name">MuteApp</string>
+    <string name="mute">MUTE</string>
+    <string name="unmute">UNMUTE</string>
 </resources>
