@@ -1,1 +1,1 @@
-include ':SayHello', ':mute'
+include ':SayHelloApp', ':MuteApp'

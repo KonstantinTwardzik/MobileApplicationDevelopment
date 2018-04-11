@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/SayHello" />
-            <option value="$PROJECT_DIR$/mute" />
+            <option value="$PROJECT_DIR$/MuteApp" />
+            <option value="$PROJECT_DIR$/SayHelloApp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
