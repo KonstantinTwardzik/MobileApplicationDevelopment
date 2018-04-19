@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ShoppingListApp</string>
+    <string name="ready">READY!</string>
+    <string-array name="itemList">
+        <item> Bier </item>
+        <item> Salz </item>
+        <item> Pfeffer </item>
+        <item> Honig </item>
+        <item> Limonade </item>
+        <item> Mehl </item>
+        <item> Senf </item>
+        <item> Ketchup </item>
+        <item> Pizza </item>
+        <item> Brezel </item>
+        <item> Granate </item>
+        <item> Energy </item>
+        <item> Kaffee </item>
+        <item> Melone </item>
+        <item> Gurke </item>
+        <item> Tomate </item>
+        <item> Wurst </item>
+        <item> Brot </item>
+        <item> Käse </item>
+    </string-array>
+</resources>

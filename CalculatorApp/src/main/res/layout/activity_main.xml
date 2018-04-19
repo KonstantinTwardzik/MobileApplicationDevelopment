@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/formulaView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorAccent"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/resultView"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="textEnd"
+        android:textColor="@color/darkerGrey"
+        android:textSize="55sp" />
+
+
+    <LinearLayout style="@style/horizontalLayout">
+
+        <Button
+            android:id="@+id/divideBtn"
+            style="@style/smallBlueButton"
+            android:onClick="setFormula"
+            android:text="@string/divide" />
+
+        <Button
+            android:id="@+id/multiplyBtn"
+            style="@style/smallBlueButton"
+            android:onClick="setFormula"
+            android:text="@string/multiply" />
+
+        <Button
+            android:id="@+id/subtractBtn"
+            style="@style/smallBlueButton"
+            android:onClick="setFormula"
+            android:text="@string/subtract" />
+
+
+        <Button
+            android:id="@+id/deleteLastBtn"
+            style="@style/smallBlueButton"
+            android:onClick="deleteLastChar"
+            android:text="@string/deleteLast" />
+
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/horizontalLayout">
+
+        <Button
+            android:id="@+id/sevenBtn"
+            style="@style/smallRegularButton"
+            android:onClick="setFormula"
+            android:text="@string/seven" />
+
+        <Button
+            android:id="@+id/eightBtn"
+            style="@style/smallRegularButton"
+            android:onClick="setFormula"
+            android:text="@string/eight" />
+
+        <Button
+            android:id="@+id/nineBtn"
+            style="@style/smallRegularButton"
+            android:onClick="setFormula"
+            android:text="@string/nine" />
+
+        <Button
+            android:id="@+id/addBtn"
+            style="@style/smallBlueButton"
+            android:onClick="setFormula"
+            android:text="@string/add" />
+
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/horizontalLayout">
+
+        <Button
+            android:id="@+id/fourBtn"
+            style="@style/smallRegularButton"
+            android:onClick="setFormula"
+            android:text="@string/four" />
+
+        <Button
+            android:id="@+id/fiveBtn"
+            style="@style/smallRegularButton"
+            android:onClick="setFormula"
+            android:text="@string/five" />
+
+        <Button
+            android:id="@+id/sixBtn"
+            style="@style/smallRegularButton"
+            android:onClick="setFormula"
+            android:text="@string/six" />
+
+        <Button
+            android:id="@+id/openBracketBtn"
+            style="@style/smallBlueButton"
+            android:onClick="setFormula"
+            android:text="@string/openBracket" />
+
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/horizontalLayout">
+
+        <Button
+            android:id="@+id/oneBtn"
+            style="@style/smallRegularButton"
+            android:onClick="setFormula"
+            android:text="@string/one" />
+
+        <Button
+            android:id="@+id/twoBtn"
+            style="@style/smallRegularButton"
+            android:onClick="setFormula"
+            android:text="@string/two" />
+
+        <Button
+            android:id="@+id/threeBtn"
+            style="@style/smallRegularButton"
+            android:onClick="setFormula"
+            android:text="@string/three" />
+
+        <Button
+            android:id="@+id/closeBracketBtn"
+            style="@style/smallBlueButton"
+            android:onClick="setFormula"
+            android:text="@string/closeBracket" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/horizontalLayout">
+
+        <Button
+            android:id="@+id/dotBtn"
+            style="@style/smallBlueButton"
+            android:onClick="setFormula"
+            android:text="@string/dot" />
+
+        <Button
+            android:id="@+id/zeroBtn"
+            style="@style/smallRegularButton"
+            android:onClick="setFormula"
+            android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/equalsBtnBtn"
+            style="@style/bigBlueButton"
+            android:onClick="calculateToNewValue"
+            android:text="@string/equals" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
