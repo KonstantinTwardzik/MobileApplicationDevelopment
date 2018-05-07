@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BMICalculator</string>
+    <string name="title">Calculation of your BMI</string>
+    <string name="noSize">Please enter your size</string>
+    <string name="noWeight">Please enter your weight</string>
+    <string name="noCalculation">No calculation possible</string>
+    <string name="enterSize">Enter your size in cm here</string>
+    <string name="enterWeight">Enter your weight in kg here</string>
+    <string name="changeSize">Change size</string>
+    <string name="changeWeight">Change weight</string>
+    <string name="bmiCalculation">Your BMI is: </string>
+    <string name="continueButton">Continue</string>
+    <string name="cm">cm</string>
+    <string name="kg">kg</string>
+    <string name="addData">Add Data</string>
+</resources>

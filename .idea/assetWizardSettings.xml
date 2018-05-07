@@ -30,6 +30,17 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                      <entry key="foregroundImage">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="scalingPercent" value="76" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                     </map>
                                   </option>
                                   <option name="values">
@@ -37,7 +48,7 @@
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="fcfffe" />
                                       <entry key="backgroundLayerName" value="ic_launcher_background_new" />
-                                      <entry key="foregroundImage" value="C:\Users\Konstantin\Downloads\speaker-2488096_640.png" />
+                                      <entry key="foregroundImage" value="C:\Users\Konstantin\Desktop\calculator.png" />
                                       <entry key="foregroundLayerName" value="ic_launcher_foreground_new" />
                                       <entry key="outputName" value="ic_launcher_new" />
                                     </map>
@@ -70,7 +81,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/av/ic_volume_mute_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/editor/ic_format_size_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -80,8 +91,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="color" value="ff2026" />
-                            <entry key="outputName" value="ic_volume_mute_black_24dp" />
+                            <entry key="color" value="404040" />
+                            <entry key="outputName" value="ic_format_size_black_24dp" />
                             <entry key="sourceFile" value="C:\Users\Konstantin" />
                           </map>
                         </option>

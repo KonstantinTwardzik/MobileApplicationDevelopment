@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RateOfInterestApp</string>
+    <string name="app_name2">RateOfInterestApp Dialogue 2</string>
+    <string name="app_name3">RateOfInterestApp Dialogue 3</string>
+    <string name="app_name4">RateOfInterestApp Dialogue 4</string>
+    <string name="seed_funding">Seed funding</string>
+    <string name="continue_button">Continue</string>
+    <string name="rate_of_interest">Rate of interest</string>
+    <string name="running_time">Running time in years</string>
+    <string name="result_sentence">The new value would be:</string>
+</resources>

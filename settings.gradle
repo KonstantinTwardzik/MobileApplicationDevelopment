@@ -1,1 +1,1 @@
-include ':SayHelloApp', ':MuteApp', ':ShoppingListApp', ':TestApp', ':CalculatorApp'
+include ':SayHelloApp', ':MuteApp', ':ShoppingListApp', ':TestApp', ':CalculatorApp', ':RateOfInterestApp', ':BMICalculatorApp', ':MemoryGameApp'

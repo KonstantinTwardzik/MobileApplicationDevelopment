@@ -8,8 +8,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/BMICalculatorApp" />
             <option value="$PROJECT_DIR$/CalculatorApp" />
+            <option value="$PROJECT_DIR$/MemoryGameApp" />
             <option value="$PROJECT_DIR$/MuteApp" />
+            <option value="$PROJECT_DIR$/RateOfInterestApp" />
             <option value="$PROJECT_DIR$/SayHelloApp" />
             <option value="$PROJECT_DIR$/ShoppingListApp" />
             <option value="$PROJECT_DIR$/TestApp" />

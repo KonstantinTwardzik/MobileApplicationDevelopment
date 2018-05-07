@@ -1,15 +1,12 @@
 package com.example.calculatorapp;
 
-import android.content.Context;
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
-import android.hardware.SensorManager;
+import android.content.res.Configuration;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -18,20 +15,22 @@ import net.objecthunter.exp4j.ExpressionBuilder;
 import net.objecthunter.exp4j.ValidationResult;
 import net.objecthunter.exp4j.operator.Operator;
 
-
 public class MainActivity extends AppCompatActivity {
 
-    private TextView formulaTxt, formulaTxtLand, resultTxt, resultTxtLand;
+    private TextView formulaTxt, resultTxt;
     private String formula, result;
     private Button deleteLastBtn;
     private Operator fac;
-
+    private NavigationView navView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         init();
+        if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_PORTRAIT) {
+            initNavView();
+        }
 
         if (savedInstanceState != null) {
             formula = savedInstanceState.getString("formulaStr");
@@ -41,11 +40,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init() {
-        Window window = getWindow();
-        window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
-        window.setStatusBarColor(getResources().getColor(R.color.lighterGrey));
-
-
         formulaTxt = findViewById(R.id.formulaView);
         resultTxt = findViewById(R.id.resultView);
         formula = "";
@@ -75,6 +69,18 @@ public class MainActivity extends AppCompatActivity {
                 return result;
             }
         };
+    }
+
+    public void initNavView() {
+        navView = findViewById(R.id.nav_view);
+        navView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                int id = item.getItemId();
+                setSize(id);
+                return true;
+            }
+        });
     }
 
     public void setFormula(View v) {
@@ -165,6 +171,20 @@ public class MainActivity extends AppCompatActivity {
 
     public void updateResultTxt() {
         resultTxt.setText(result);
+    }
+
+    public void setSize(int id) {
+        switch (id) {
+            case (R.id.nav_small):
+                formulaTxt.setTextSize(35);
+                break;
+            case (R.id.nav_medium):
+                formulaTxt.setTextSize(50);
+                break;
+            case (R.id.nav_large):
+                formulaTxt.setTextSize(70);
+                break;
+        }
     }
 
     @Override
