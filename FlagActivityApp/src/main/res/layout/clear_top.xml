@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/stackTopBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="stackTop"
+        android:text="Stack Top" />
+
+    <Button
+        android:id="@+id/clearTopBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearTop"
+        android:text="Clear Top" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" FLAG_ACTIVITY_CLEAR_TASK: Wenn diese Einstellung in einer Intent-Anweisung an Context.startActivity () festgelegt wurde, bewirkt dieses Flag, dass alle vorhandenen Aufgaben, die der Aktivität zugeordnet werden würden, vor dem Start der Aktivität gelöscht werden." />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FLAG_ACTIVITY_BROUGHT_TO_FRONT: Dieses Flag wird normalerweise nicht vom Anwendungscode gesetzt, sondern vom System für Sie eingerichtet, wie in der Dokumentation zu launchMode für den singleTask-Modus beschrieben." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS: Wenn diese Einstellung aktiviert ist, wird die neue Aktivität nicht in der Liste der kürzlich gestarteten Aktivitäten gespeichert" />
+</LinearLayout>
