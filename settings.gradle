@@ -1,1 +1,1 @@
-include ':SayHelloApp', ':MuteApp', ':ShoppingListApp', ':TestApp', ':MusicServiceApp', ':SlowActionOneApp', ':SlowActionASyncApp', ':CalculatorApp', ':RateOfInterestApp', ':BMICalculatorApp', ':MemoryGameApp', ':RecursionOneApp', ':RecursionTwoApp', ':SlowActionTwoApp', ':StardDialApp', ':FlagActivityApp'
+include ':SayHelloApp', ':MuteApp', ':ShoppingListApp', ':TestApp', ':CalculatorApp', ':RateOfInterestApp', ':BMICalculatorApp', ':MemoryGameApp', ':RecursionOneApp', ':RecursionTwoApp', ':StardDialApp', ':FlagActivityApp', ':SlowActionApp', ':MusicServiceApp'

@@ -1,5 +1,0 @@
-<resources>
-    <string name="app_name">Slow Action 2</string>
-    <string name="successMessage">Läuft</string>
-    <string name="failureMessage">Läuft nicht</string>
-</resources>

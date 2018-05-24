@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.example.musicserviceapp"
+        applicationId "com.example.slowactionapp"
         minSdkVersion 21
         targetSdkVersion 27
         versionCode 1

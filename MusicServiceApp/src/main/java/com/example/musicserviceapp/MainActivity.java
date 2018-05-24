@@ -7,17 +7,16 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    public void onCreate(Bundle savedInstanceState)
-    {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void startPlayerService(View v)
-    {
+
+    public void startPlayerService(View v) {
         startService(new Intent(this, PlayerService.class));
     }
-    public void stopPlayerService(View v)
-    {
+
+    public void stopPlayerService(View v) {
         stopService(new Intent(this, PlayerService.class));
     }
 }

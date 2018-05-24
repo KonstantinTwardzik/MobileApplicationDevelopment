@@ -19,9 +19,7 @@
             <option value="$PROJECT_DIR$/RecursionTwoApp" />
             <option value="$PROJECT_DIR$/SayHelloApp" />
             <option value="$PROJECT_DIR$/ShoppingListApp" />
-            <option value="$PROJECT_DIR$/SlowActionASyncApp" />
-            <option value="$PROJECT_DIR$/SlowActionOneApp" />
-            <option value="$PROJECT_DIR$/SlowActionTwoApp" />
+            <option value="$PROJECT_DIR$/SlowActionApp" />
             <option value="$PROJECT_DIR$/StardDialApp" />
             <option value="$PROJECT_DIR$/TestApp" />
           </set>

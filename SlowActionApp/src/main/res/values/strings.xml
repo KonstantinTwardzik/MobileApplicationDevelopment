@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SlowActionApp</string>
+    <string name="SuccessMessage">Everything worked!</string>
+    <string name="FailureMessage">Nothing worked!</string>
+</resources>
