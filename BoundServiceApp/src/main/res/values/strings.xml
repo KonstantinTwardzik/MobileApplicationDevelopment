@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BoundServiceApp</string>
+    <string name="msgNoOpPossible">Error</string>
+    <string name="msgBound">Service Bound</string>
+    <string name="msgUnbound">Service is not Bound</string>
+</resources>

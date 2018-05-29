@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/BMICalculatorApp" />
+            <option value="$PROJECT_DIR$/BoundServiceApp" />
             <option value="$PROJECT_DIR$/CalculatorApp" />
             <option value="$PROJECT_DIR$/FlagActivityApp" />
             <option value="$PROJECT_DIR$/MemoryGameApp" />
@@ -21,6 +22,7 @@
             <option value="$PROJECT_DIR$/ShoppingListApp" />
             <option value="$PROJECT_DIR$/SlowActionApp" />
             <option value="$PROJECT_DIR$/StardDialApp" />
+            <option value="$PROJECT_DIR$/StartedServiceApp" />
             <option value="$PROJECT_DIR$/TestApp" />
           </set>
         </option>
