@@ -79,4 +79,9 @@ public class MainActivity extends AppCompatActivity {
             tv.setText(R.string.msgUnbound);
         }
     }
+
+    public void changeActivity(View v) {
+        Intent newIntent = new Intent(this, SecondaryActivity.class);
+        startActivity(newIntent);
+    }
 }

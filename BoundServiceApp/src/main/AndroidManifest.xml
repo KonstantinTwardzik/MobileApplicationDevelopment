@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <service android:name=".BoundService"></service>
+        <activity android:name=".SecondaryActivity" android:label="BoundServiceApp Activity 2"/>
     </application>
 
 </manifest>

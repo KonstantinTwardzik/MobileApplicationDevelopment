@@ -1,0 +1,1 @@
+include ':customviews', ':listselectiondemo', ':homebanking', ':indexindicatordemo', ':knobdemo', ':numpaddemo', ':speakercontrol'

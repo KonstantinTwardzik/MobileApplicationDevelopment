@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HomeBanking</string>
+
+    <string name="form_title">Neue Überweisung</string>
+    <string name="nameHint">Begünstigter</string>
+    <string name="accountNumberHint">Kontonummer</string>
+    <string name="bankCodeHint">Bankleitzahl</string>
+    <string name="amountHint">Betrag</string>
+    <string name="reference1Hint">Verwendungszweck</string>
+    <string name="reference2Hint">Noch Verwendungszweck</string>
+    <string name="executeButtonText">Ausführen</string>
+</resources>

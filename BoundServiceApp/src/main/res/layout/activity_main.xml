@@ -55,4 +55,11 @@
         android:layout_height="wrap_content"
         android:onClick="handleReset"
         android:text="Reset Counter" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="changeActivity"
+        android:text="Change Activity" />
 </LinearLayout>

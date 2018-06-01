@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.customviewslibrary.MasterToggleButton
+        android:id="@+id/all"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="all"
+        android:textOff="all"
+        android:textOn="all"
+        tools:disableSlaves="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/frontLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="front left"
+            android:textOff="front left"
+            android:textOn="front left" />
+
+        <ToggleButton
+            android:id="@+id/center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="center"
+            android:textOff="center"
+            android:textOn="center" />
+
+        <ToggleButton
+            android:id="@+id/frontRight"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_weight="1"
+            android:text="ToggleButton"
+            android:textOff="front right"
+            android:textOn="front right" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/rearLeft"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="rear left"
+            android:textOff="rear left"
+            android:textOn="rear left" />
+
+        <ToggleButton
+            android:id="@+id/subwoofer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="subwoofer"
+            android:textOff="subwoofer"
+            android:textOn="subwoofer" />
+
+        <ToggleButton
+            android:id="@+id/rearRight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="ToggleButton"
+            android:textOff="rear right"
+            android:textOn="rear right" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.example.customviewslibrary.MasterToggleButton
+            android:id="@+id/front"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="front"
+            android:text="front"
+            tools:text="front"
+            android:textOff="front"
+            android:textOn="front"/>
+
+        <com.example.customviewslibrary.MasterToggleButton
+            android:id="@+id/rear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="rear"
+            android:textOff="rear"
+            android:textOn="rear"/>
+    </LinearLayout>
+
+</LinearLayout>
