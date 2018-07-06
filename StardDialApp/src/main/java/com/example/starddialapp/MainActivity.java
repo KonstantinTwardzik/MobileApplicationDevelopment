@@ -15,10 +15,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startDial(View v) {
-        String emergency = "911";
-        String uri = "tel:" + emergency.trim() ;
-        Intent intent2 = new Intent(Intent.ACTION_DIAL);
-        intent2.setData(Uri.parse(uri));
-        startActivity(intent2);
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:911"));
+        startActivity(intent);
     }
 }

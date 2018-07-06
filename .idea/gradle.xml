@@ -12,10 +12,18 @@
             <option value="$PROJECT_DIR$/BoundServiceApp" />
             <option value="$PROJECT_DIR$/CalculatorApp" />
             <option value="$PROJECT_DIR$/CustomViewsLibrary" />
+            <option value="$PROJECT_DIR$/Exam_Adapter" />
+            <option value="$PROJECT_DIR$/Exam_Controls" />
+            <option value="$PROJECT_DIR$/Exam_Dialogue" />
+            <option value="$PROJECT_DIR$/Exam_Qualifier" />
+            <option value="$PROJECT_DIR$/Exam_SharedPreferences" />
+            <option value="$PROJECT_DIR$/Exam_ViewViewGroupLayout" />
             <option value="$PROJECT_DIR$/FlagActivityApp" />
+            <option value="$PROJECT_DIR$/IndexIndicatorTestApp" />
             <option value="$PROJECT_DIR$/MemoryGameApp" />
             <option value="$PROJECT_DIR$/MusicServiceApp" />
             <option value="$PROJECT_DIR$/MuteApp" />
+            <option value="$PROJECT_DIR$/NumPadTestApp" />
             <option value="$PROJECT_DIR$/RateOfInterestApp" />
             <option value="$PROJECT_DIR$/RecursionOneApp" />
             <option value="$PROJECT_DIR$/RecursionTwoApp" />
@@ -26,10 +34,7 @@
             <option value="$PROJECT_DIR$/StardDialApp" />
             <option value="$PROJECT_DIR$/StartedServiceApp" />
             <option value="$PROJECT_DIR$/TestApp" />
-            <option value="$PROJECT_DIR$/ema-customviews/customviews" />
-            <option value="$PROJECT_DIR$/ema-customviews/homebanking" />
-            <option value="$PROJECT_DIR$/ema-customviews/knobdemo" />
-            <option value="$PROJECT_DIR$/ema-customviews/listselectiondemo" />
+            <option value="$PROJECT_DIR$/ToDoApp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

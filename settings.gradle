@@ -1,5 +1,1 @@
-include ':SayHelloApp', ':MuteApp', ':ShoppingListApp', ':TestApp', ':CalculatorApp', ':RateOfInterestApp', ':BMICalculatorApp', ':MemoryGameApp', ':RecursionOneApp', ':RecursionTwoApp', ':StardDialApp', ':FlagActivityApp', ':SlowActionApp', ':MusicServiceApp', ':StartedServiceApp', ':BoundServiceApp', ':CustomViewsLibrary', ':customviews', ':listselectiondemo', ':knobdemo', ':homebanking', ':SpeakerSystemApp'
-project(':customviews').projectDir = new File('ema-customviews/customviews')
-project(':listselectiondemo').projectDir = new File('ema-customviews/listselectiondemo')
-project(':knobdemo').projectDir = new File('ema-customviews/knobdemo')
-project(':homebanking').projectDir = new File('ema-customviews/homebanking')
+include ':SayHelloApp', ':MuteApp', ':ShoppingListApp', ':TestApp', ':CalculatorApp', ':RateOfInterestApp', ':BMICalculatorApp', ':MemoryGameApp', ':RecursionOneApp', ':RecursionTwoApp', ':StardDialApp', ':FlagActivityApp', ':SlowActionApp', ':MusicServiceApp', ':StartedServiceApp', ':BoundServiceApp', ':CustomViewsLibrary', ':SpeakerSystemApp', ':NumPadTestApp', ':IndexIndicatorTestApp', ':ToDoApp', ':Exam_ViewViewGroupLayout', ':Exam_Controls', ':Exam_Adapter', ':Exam_Qualifier', ':Exam_Dialogue', ':Exam_SharedPreferences'

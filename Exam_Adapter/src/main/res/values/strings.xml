@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Exam_Adapter</string>
+    <string-array name="types">
+        <item>Formula One</item>
+        <item>24h Le Mans</item>
+    </string-array>
+</resources>

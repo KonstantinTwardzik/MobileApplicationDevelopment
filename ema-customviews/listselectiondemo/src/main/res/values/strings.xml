@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">ListSelectionDemo</string>
-
-    <string name="showSelectionButton">Show Selection</string>
-    <string name="resetSelectionButton">Reset Selection</string>
-</resources>

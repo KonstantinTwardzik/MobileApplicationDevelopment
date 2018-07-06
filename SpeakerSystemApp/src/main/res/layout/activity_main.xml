@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    xmlns:com="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
 
     <com.example.customviewslibrary.MasterToggleButton
         android:id="@+id/all"
@@ -15,7 +13,7 @@
         android:text="all"
         android:textOff="all"
         android:textOn="all"
-        tools:disableSlaves="false"/>
+        com:disableSlaves="false" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +23,7 @@
 
         <ToggleButton
             android:id="@+id/frontLeft"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="front left"
@@ -43,8 +41,8 @@
 
         <ToggleButton
             android:id="@+id/frontRight"
-            android:layout_width="wrap_content"
-            android:layout_height="118dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="ToggleButton"
             android:textOff="front right"
@@ -70,7 +68,7 @@
 
         <ToggleButton
             android:id="@+id/subwoofer"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="subwoofer"
@@ -95,23 +93,24 @@
 
         <com.example.customviewslibrary.MasterToggleButton
             android:id="@+id/front"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:contentDescription="front"
             android:text="front"
-            tools:text="front"
             android:textOff="front"
-            android:textOn="front"/>
+            android:textOn="front"
+            com:disableSlaves="true" />
 
         <com.example.customviewslibrary.MasterToggleButton
             android:id="@+id/rear"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:text="rear"
             android:textOff="rear"
-            android:textOn="rear"/>
+            android:textOn="rear"
+            com:disableSlaves="true" />
     </LinearLayout>
 
 </LinearLayout>
